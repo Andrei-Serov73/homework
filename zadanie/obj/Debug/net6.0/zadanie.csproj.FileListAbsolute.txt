@@ -1,0 +1,15 @@
+C:\Users\админ\Desktop\siminar2\zadanie\bin\Debug\net6.0\zadanie.exe
+C:\Users\админ\Desktop\siminar2\zadanie\bin\Debug\net6.0\zadanie.deps.json
+C:\Users\админ\Desktop\siminar2\zadanie\bin\Debug\net6.0\zadanie.runtimeconfig.json
+C:\Users\админ\Desktop\siminar2\zadanie\bin\Debug\net6.0\zadanie.dll
+C:\Users\админ\Desktop\siminar2\zadanie\bin\Debug\net6.0\zadanie.pdb
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.csproj.AssemblyReference.cache
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.AssemblyInfoInputs.cache
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.AssemblyInfo.cs
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.csproj.CoreCompileInputs.cache
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.dll
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\refint\zadanie.dll
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.pdb
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\zadanie.genruntimeconfig.cache
+C:\Users\админ\Desktop\siminar2\zadanie\obj\Debug\net6.0\ref\zadanie.dll
