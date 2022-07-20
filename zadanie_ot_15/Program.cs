@@ -1,52 +1,29 @@
-﻿//Задача 19
-//Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
-//14212 -> нет
-//12821 -> да
-//23432 -> да
-//строки и массивы использовать нельзя
+﻿/// Задача 21: Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+// A (3,6,8); B (2,1,-7), -> 15.84
+// A (7,-5, 0); B (1,-1,9) -> 11.53
 
-//Console.Write("Введите пятизначное число: ");
-//int num = Convert.ToInt32(Console.ReadLine());
-//void palindrom (string num)
-//{
-  //if (num[0] == num[4] || num[1] == num[3])
-  //{
-  //Console.WriteLine($"Ваше число: {num} - палиндром.");
-  //}
-  //else{
-    //Console.WriteLine($"Ваше число: {num} - не палиндром.");
-  //}
-//}
-//if (num.Length == 5){
-  //palindrom(num);
-//}
-//else{
-    //Console.WriteLine("Введите правильное число.");
-//}
+Console.WriteLine("\n Задача 21");
+int x1 = Coordinate("x", "A");
+int y1 = Coordinate("y", "A");
+int z1 = Coordinate("z", "A");
+int x2 = Coordinate("x", "B");
+int y2 = Coordinate("y", "B");
+int z2 = Coordinate("z", "B");
 
-// первое решение через строку
+int Coordinate(string coorName, string pointName)
+{
+    Console.Write($"Введите координату {coorName} точки {pointName}: ");
+    return Convert.ToInt16(Console.ReadLine());
+}
 
+double Decision(double x1, double x2, 
+                double y1, double y2, 
+                double z1, double z2){
+  return Math.Sqrt(Math.Pow((x2-x1), 2) + 
+                   Math.Pow((y2-y1), 2) + 
+                   Math.Pow((z2-z1), 2));
+}
 
-Console.Write("Введите пятизначное число: ");
-int num = Convert.ToInt32(Console.ReadLine());
-void palindrom (int num){
-int a = num / 10000;                          
-int b = num / 1000 - a * 10;                  
-int c = num / 100 - a * 100 - b * 10;         
-int d = num / 10 - a * 1000 - b * 100 - c *10;  
-int e = num / 1 - a * 10000 - b * 1000 - c *100 - d * 10;
-if(a == e && b == d){
-  Console.WriteLine($"Ваше число: {num} - палиндром.");
-}
-else{
-Console.WriteLine($"Ваше число: {num} - не палиндром.");
-}
-}
-string str = Convert.ToString(num);
-if (str.Length == 5){
-  palindrom(num);
-}
-else{
-    Console.WriteLine("Введите правильное число (положительное пятизначное!).");
-}
-// строку использовал для проверки числа - по-другому не додумался.
+double segmentLength =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
+
+Console.WriteLine($"Длина отрезка  {segmentLength}");
